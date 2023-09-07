@@ -1,0 +1,16 @@
+rc file Version 1.0
+
+[Design]
+COMPILE_PATH=/home/ICer/MY_FILE/MY_CODE_1/mul_8_8
+SystemC=FALSE
+UUM=FALSE
+KDB=FALSE
+USE_NOVAS_HOME=FALSE
+COSIM=FALSE
+TOP=adder32 tb_booth 
+OPTION=-ssz -ssz -ssv -ssy 
+ELAB_OPTION=-ssz -ssz -ssv -ssy 
+
+[Value]
+WREALX=ffff534e50535f58
+WREALZ=ffff534e50535f5a

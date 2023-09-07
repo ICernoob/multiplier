@@ -1,0 +1,38 @@
+set ucliGUI::state
+set ucliGUI::state
+ucliCore::getToolPID
+synopsys::env hasTB
+trigger_hier_stack_context_switch 0
+synUtils::setDVEInitPhase 1
+synopsys::dump -type VPD -file /home/ICer/MY_FILE/MY_CODE_1/mul_8_8/inter.vpd -locking
+synopsys::dump -autoflush on -fid VPD0
+set ::dve_fid VPD0
+synUtils::setDVEInitPhase 0
+ucliCore::getToolPID
+synUtils::sendTool -active _icl_setToolSocket /tmp/smlnpBdD304
+synUtils::sendTool -active {_icl_start_rpc -version "O-2018.09-1_Full64" -sync_file /tmp/vcs_dve_rpc.ICer.8381}
+synUtils::sendTool -active {_icl_createSharedMemory /tmp/vcs_dve_general.ICer.8381}
+config endofsim noexit
+config onfail enable all
+config syscaddplainmembers
+config syscaddsourcenames
+config syscaddstructtypes
+synopsys::listing -disable
+ucliGUI::vpdAddHierarchy -scope tb_booth -depth 1 -file /home/ICer/MY_FILE/MY_CODE_1/mul_8_8/inter.vpd; synopsys::dump -flush VPD0
+synopsys::dump -add {tb_booth.mul_a tb_booth.mul_b tb_booth.mul_pro } -aggregates  -fid VPD0
+synopsys::run
+set ucliGUI::state
+set ucliGUI::state
+set ucliGUI::state
+set ucliGUI::state
+ucliGUI::getSignalValues -scope tb_booth -radix {decimal } -list {{mul_pro[15:0]} }
+ucliGUI::getSignalValues -scope tb_booth -radix {decimal } -list {{mul_a[7:0]} }
+ucliGUI::getSignalValues -scope tb_booth -radix {decimal } -list {{mul_b[7:0]} }
+ucliGUI::getSignalValues -scope tb_booth -radix {decimal } -list {{mul_pro[15:0]} }
+ucliGUI::getSignalValues -scope tb_booth -radix {decimal } -list {{mul_a[7:0]} }
+ucliGUI::getSignalValues -scope tb_booth -radix {decimal } -list {{mul_b[7:0]} }
+if [catch {gui_sim_terminate}] {gui_sim_terminate -kill}
+synopsys::finish
+set ucliGUI::state
+set ucliGUI::state
+ucli_exit

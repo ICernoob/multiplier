@@ -1,0 +1,112 @@
+0 
+33
++itf+/home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/vcsdp.tab
++memcbk
++vcsd
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/home/synopsys/vcs-mx/O-2018.09-1/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/libvirsim.so /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/liberrorinf.so /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/libsnpsmalloc.so /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/home/synopsys/vcs-mx/O-2018.09-1/include
+-debug_access+all+bc
+-debug_region+cell
+-gen_obj
+-picarchive
+/home/synopsys/vcs-mx/O-2018.09-1/linux64/bin/vcs1
+adder4.v
+adder64.v
+booth_encoder32.v
+booth_top.v
+full_adder.v
+mul32_32.v
+tb_mul.v
+wallace64_64.v
+58
+sysc_uni_pwd=/home/ICer/MY_FILE/MY_CODE_1/booth_wallace/mul_32_32
+XILINX_VIVADO=/home/Xilinx/Vivado/2019.1
+XDG_SESSION_ID=1
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_DATA_DIRS=/home/ICer/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+VMR_MODE_FLAG=32
+VERDI_HOME=/home/synopsys/verdi/Verdi_O-2018.09-SP2
+VCS_TARGET_ARCH=linux64
+VCS_MX_HOME_INTERNAL=1
+VCS_HOME=/home/synopsys/vcs-mx/O-2018.09-1
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH_OVERRIDE=linux
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/home/synopsys/vcs-mx/O-2018.09-1/linux64
+SYNPLIFY_HOME=/home/synopsys/fpga/N-2018.03-SP1
+SSH_TTY=/dev/pts/0
+SSH_CONNECTION=192.168.119.2 59455 192.168.119.88 22
+SSH_CLIENT=192.168.119.2 59455 22
+SPYGLASS_HOME=/home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/
+SPECMAN_HOME=/home/cadence/INCISIVE152/components/sn
+SPECMAN_DIR=/home/cadence/INCISIVE152/components/sn/
+SELINUX_USE_CURRENT_RANGE=
+SELINUX_ROLE_REQUESTED=
+SELINUX_LEVEL_REQUESTED=
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+SCL_HOME=/home/synopsys/scl/2018.06
+RISCV=/home/Riscv_Tools
+QUESTASIM_HOME=/home/mentor/questasim
+QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
+QT_GRAPHICSSYSTEM_CHECKED=1
+QTLIB=/usr/lib/qt-3.3/lib
+QTINC=/usr/lib/qt-3.3/include
+QTDIR=/usr/lib/qt-3.3
+QEMU_HOME=/home/Riscv_Tools/riscv-gnu-toolchain/qemu-6.0.0
+PT_HOME=/home/synopsys/pts/O-2018.06-SP1
+OVA_UUM=0
+MMSIMHOME=/home/cadence/MMSIM151
+MGLS_LICENSE_FILE=/home/mentor/questasim/mentor.dat
+MGC_LICENSE_FILE=/home/mentor//license/license.dat
+MGC_HOME=/home/mentor/
+MGC_CALIBRE_SCHEMATIC_SERVER=IC_EDA:9199
+MGC_CALIBRE_LAYOUT_SERVER=IC_EDA:9189
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_HOME=/home/synopsys/lc/O-2018.06-SP1
+LC_ALL=C
+KDEDIRS=/usr
+INCISIVE_HOME=/home/cadence/INCISIVE152
+ICC2_HOME=/home/synopsys/icc2/O-2018.06-SP1
+HISTCONTROL=ignoredups
+DVE_HOME=/home/synopsys/vcs-mx/O-2018.09-1
+DC_HOME=/home/synopsys/syn/O-2018.06-SP1
+CDS_LIC_FILE=/home/cadence/license/cadence.dat
+CDSHOME=/home/cadence/IC617
+CALIBRE_HOME=/home/mentor//Calibre2015/aoi_cal_2015.2_36.27
+CADHOME=/home/cadence
+0
+9
+1693404355 full_adder.v
+1693404355 booth_encoder32.v
+1693404355 booth_top.v
+1693404355 adder4.v
+1693404355 adder64.v
+1693404355 wallace64_64.v
+1693404355 mul32_32.v
+1693404792 tb_mul.v
+1539400757 /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/vcsdp.tab
+4
+1539402341 /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/libvirsim.so
+1539401183 /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/liberrorinf.so
+1539401125 /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/libsnpsmalloc.so
+1539401175 /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/libvfs.so
+1693404799 simv.daidir
+-1 partitionlib

@@ -1,0 +1,38 @@
+{
+    "booth_encoder32": [
+        "booth_encoder32",
+        "kmdiI",
+        "module",
+        4
+    ],
+    "tb_mul": [
+        "tb_mul",
+        "xmcas",
+        "module",
+        1
+    ],
+    "adder64_0000": [
+        "adder64_0000",
+        "VZZIx",
+        "module",
+        2
+    ],
+    "adder4": [
+        "adder4",
+        "z9kyH",
+        "module",
+        3
+    ],
+    "full_adder": [
+        "full_adder",
+        "BEdzp",
+        "module",
+        5
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        6
+    ]
+}

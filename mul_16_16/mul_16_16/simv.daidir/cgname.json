@@ -1,0 +1,32 @@
+{
+    "adder4": [
+        "adder4",
+        "z9kyH",
+        "module",
+        2
+    ],
+    "tb_mul": [
+        "tb_mul",
+        "xmcas",
+        "module",
+        7
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        6
+    ],
+    "booth_encoder16": [
+        "booth_encoder16",
+        "eWscK",
+        "module",
+        8
+    ],
+    "full_adder": [
+        "full_adder",
+        "BEdzp",
+        "module",
+        5
+    ]
+}

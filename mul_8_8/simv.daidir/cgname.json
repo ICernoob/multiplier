@@ -1,0 +1,38 @@
+{
+    "booth_encoder": [
+        "booth_encoder",
+        "B9hGU",
+        "module",
+        1
+    ],
+    "full_adder": [
+        "full_adder",
+        "BEdzp",
+        "module",
+        4
+    ],
+    "adder32": [
+        "adder32",
+        "FBCR7",
+        "module",
+        2
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        6
+    ],
+    "adder4": [
+        "adder4",
+        "z9kyH",
+        "module",
+        3
+    ],
+    "tb_booth": [
+        "tb_booth",
+        "bGs0g",
+        "module",
+        5
+    ]
+}

@@ -1,0 +1,83 @@
+# Preference setting overrides
+gui_create_pref_key -category {Globals} -key {load_detail_for_funcov} -value_type {bool} -value {false}
+
+# State setting overrides
+gui_state_default_create -off -ini
+gui_set_state_value -category Globals -key recent_sessions -value {{gui_load_session -ignore_errors -file /home/ICer/MY_FILE/SRAM_TEST/ahb_file/session.inter.vpd.tcl -ignore_errors} {gui_load_session -ignore_errors -file /home/ICer/MY_FILE/SRAM_TEST/ahb_file/vip_ahb_rtl/session.inter.vpd.tcl -ignore_errors} {gui_load_session -ignore_errors -file /home/ICer/MY_FILE/SRAM_TEST/ahb_file/vip_ahb_rtl/session.inter.vpd.tcl} {gui_load_session -ignore_errors -file /home/ICer/MY_FILE/SRAM_TEST/ahb_file/session.inter.vpd.tcl}}
+gui_set_state_value -category Layout -key child_console_size_x -value 1898
+gui_set_state_value -category Layout -key child_console_size_y -value 130
+gui_set_state_value -category Layout -key child_data_coltype -value 144
+gui_set_state_value -category Layout -key child_data_colvalue -value 153
+gui_set_state_value -category Layout -key child_data_colvariable -value 197
+gui_set_state_value -category Layout -key child_data_size_x -value 312
+gui_set_state_value -category Layout -key child_data_size_y -value 766
+gui_set_state_value -category Layout -key child_driver_size_x -value 1202
+gui_set_state_value -category Layout -key child_driver_size_y -value 179
+gui_set_state_value -category Layout -key child_hier_col3 -value {-1}
+gui_set_state_value -category Layout -key child_hier_colhier -value 305
+gui_set_state_value -category Layout -key child_hier_colpd -value 0
+gui_set_state_value -category Layout -key child_hier_coltype -value 57
+gui_set_state_value -category Layout -key child_hier_size_x -value 308
+gui_set_state_value -category Layout -key child_hier_size_y -value 766
+gui_set_state_value -category Layout -key child_source_docknewline -value false
+gui_set_state_value -category Layout -key child_source_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_source_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_source_size_x -value 1281
+gui_set_state_value -category Layout -key child_source_size_y -value 761
+gui_set_state_value -category Layout -key child_watch_size_x -value 1912
+gui_set_state_value -category Layout -key child_watch_size_y -value 105
+gui_set_state_value -category Layout -key child_wave_colname -value 273
+gui_set_state_value -category Layout -key child_wave_colvalue -value 273
+gui_set_state_value -category Layout -key child_wave_docknewline -value false
+gui_set_state_value -category Layout -key child_wave_left -value 550
+gui_set_state_value -category Layout -key child_wave_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_wave_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_wave_right -value 1342
+gui_set_state_value -category Layout -key child_wave_size_x -value 1917
+gui_set_state_value -category Layout -key child_wave_size_y -value 784
+gui_set_state_value -category Layout -key main_pos_x -value 1920
+gui_set_state_value -category Layout -key main_pos_y -value 31
+gui_set_state_value -category Layout -key main_size_x -value 3818
+gui_set_state_value -category Layout -key main_size_y -value 1026
+gui_set_state_value -category Layout -key stand_wave_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_wave_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_wave_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_wave_child_size_x -value 1902
+gui_set_state_value -category Layout -key stand_wave_child_size_y -value 874
+gui_set_state_value -category Layout -key stand_wave_top_pos_x -value 1920
+gui_set_state_value -category Layout -key stand_wave_top_pos_y -value 31
+gui_set_state_value -category Layout -key stand_wave_top_size_x -value 3817
+gui_set_state_value -category Layout -key stand_wave_top_size_y -value 1009
+gui_create_state_key -category FindDialog -key m_pMatchCase -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pMatchWord -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pUseCombo -value_type string -value {}
+gui_create_state_key -category FindDialog -key m_pWrapAround -value_type bool -value true
+gui_create_state_key -category Widget_History -key TopLevel.1|qt_left_dock|DockWnd2|DLPane.1|pages|Data.1|hbox|textfilter -value_type string -value {*en *sig *valid}
+gui_create_state_key -category Widget_History -key TopLevel.1|qt_left_dock|DockWnd4|DLPane.1|pages|Data.1|hbox|textfilter -value_type string -value {*write_flag *write_falsg *write_f *write_pos}
+gui_create_state_key -category Widget_History -key TopLevel.2|EkTopVbox|wndWorkspace|qt_workspacechild2|Wave.1|left|filterVBox|controlHBox|unnamed -value_type string -value {*sig *signal *trans bus}
+gui_create_state_key -category Widget_History -key TopLevel.2|EkTopVbox|wndWorkspace|qt_workspacechild3|Wave.1|left|filterVBox|controlHBox|unnamed -value_type string -value {*flag *pos *signal *htrans}
+gui_create_state_key -category Widget_History -key TopLevel.2|EkTopVbox|wndWorkspace|qt_workspacechild4|Wave.1|left|filterVBox|controlHBox|unnamed -value_type string -value *rd
+gui_create_state_key -category Widget_History -key TopLevel.3|EkTopVbox|wndWorkspace|qt_workspacechild3|Wave.2|left|filterVBox|controlHBox|unnamed -value_type string -value {*hready_in *hreadyin *hreadyout *hready}
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_VPDCombo} -value_type string -value inter.vpd
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_argsCombo} -value_type string -value {{-ucligui }}
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_curDirCombo} -value_type string -value {/home/ICer/MY_FILE/MY_CODE_1 /home/ICer/MY_FILE/SRAM_TEST/axis_afifo /home/ICer/MY_FILE/BUS/AXI4/VIVADO_FILE/AXI /home/ICer/MY_FILE/SRAM_TEST /home/ICer/MY_FILE/SRAM_TEST/ahb_file}
+gui_create_state_key -category Widget_History -key {dlgSimSetup|m_setupTab|tab pages|SimTab|m_exeCombo} -value_type string -value {./simv /home/ICer/MY_FILE/SRAM_TEST/axis_afifo/simv /home/ICer/MY_FILE/BUS/AXI4/VIVADO_FILE/AXI/simv /home/ICer/MY_FILE/SRAM_TEST/simv /home/ICer/MY_FILE/SRAM_TEST/ahb_file/vip_ahb_rtl/simv}
+gui_state_default_create -off
+
+# Begin command logging
+gui_sim_run Ucli -exe ./simv -args {-ucligui  } -dir .
+gui_list_select -id Data.1 -selected  { {adder32.a[15:0]}  {adder32.b[15:0]}  {adder32.S[15:0]}  adder32.C  {adder32.cout[3:0]}  {adder32.s_4[3:0][3:0]}   }
+gui_list_select -id Hier.1 -current_item_name tb_booth -current_item_type Scope  -selected  { tb_booth   }
+gui_list_expand -id  Hier.1   tb_booth
+gui_list_expand -id  Hier.1   tb_booth.u_booth_adder
+gui_list_select -id Data.1 -selected  { {tb_booth.mul_pro[15:0]}  {tb_booth.mul_a[7:0]}  {tb_booth.mul_b[7:0]}   }
+gui_open_window Wave
+gui_list_add -id Wave.1 -from Data.1 { {tb_booth.mul_pro[15:0]} {tb_booth.mul_a[7:0]} {tb_booth.mul_b[7:0]} } -insertionbar
+gui_sim_continue  
+gui_list_select -id Wave.1 -selected  { {tb_booth.mul_b[7:0]}  {New Group}  {tb_booth.mul_a[7:0]}  {tb_booth.mul_pro[15:0]}   }
+gui_list_select -id Wave.1 -selected  { {New Group}   }
+gui_list_select -id Wave.1 -selected  { {tb_booth.mul_b[7:0]}   }
+gui_list_select_all -id Wave.1
+gui_list_set_selected_property -id Wave.1 -radix decimal
+gui_list_set_selected_property -id Wave.1 -radix twosComplement
+gui_close_window -window TopLevel.2
